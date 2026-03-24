@@ -1,0 +1,7 @@
+.orb-container {
+  overflow: hidden;
+}
+
+.orb-container canvas {
+  display: block;
+}

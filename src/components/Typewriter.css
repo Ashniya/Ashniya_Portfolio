@@ -1,0 +1,14 @@
+.typewriter {
+  display: inline-block;
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  color: white;
+  animation: blink 1.5s infinite step-end;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
