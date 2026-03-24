@@ -5,6 +5,7 @@ import { motion } from 'motion/react';
 import TextPressure from '../components/TextPressure';
 import VariableProximity from '../components/VariableProximity';
 import LiquidEther from '../components/LiquidEther';
+import profileImg from '../assets/profile/profile-img.jpeg';
 
 export default function Home() {
   const containerRef = useRef(null);
@@ -128,9 +129,11 @@ export default function Home() {
             className="relative w-[280px] h-[280px] md:w-[360px] md:h-[360px] rounded-full bg-gradient-to-tr from-brand-light-1 to-brand-light-4 shadow-2xl overflow-hidden border-[6px] border-brand-dark-2 z-10 box-border"
           >
             {/* Replace with actual image */}
-            <div className="w-full h-full flex items-center justify-center text-8xl font-black text-white/50 bg-brand-dark-3/50">
-              A
-            </div>
+            <img 
+              src={profileImg} 
+              alt="Ashniya Alosious" 
+              className="w-full h-full object-cover"
+            />
           </motion.div>
 
           {/* Curved track guide and Orbit Icons Container */}
